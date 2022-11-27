@@ -19,6 +19,11 @@
     border-top-right-radius: 35px;
 } 
 
+.logo{
+        margin-left: 15%;
+        margin-right: 25%;
+    }
+
 h2.subject {
     position: absolute;
     top:40px;
@@ -104,6 +109,17 @@ medialinks{
 /*****************************************************************************/
 /* Adjust for Larger screen sizes*/
 @media (min-width: 600px) {
+    
+    .intro{
+        margin-left: 25%;
+        margin-right: 25%
+    }
+    
+    
+    .logo{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 
     .topbar{ 
         width: 50%;
