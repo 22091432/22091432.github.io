@@ -1,0 +1,131 @@
+@import "menu.css";
+
+.topbar{
+    background-color: rgb(255,0,51);
+    font-size: 10px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    height:35px;
+    width: 75%;
+    margin: 0;
+    border: 0 ;
+    padding: 0;
+    text-align: center;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+} 
+
+h2.subject {
+    position: absolute;
+    top:40px;
+    left:20%;
+    width: 60%;
+    border: 1px;
+    padding: 1px;
+    margin: 0;
+    background-color: #ededed; 
+    font-size: 16px;
+    text-align: center;
+    border-bottom-left-radius: 65px;
+    border-top-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    border-top-right-radius: 65px;
+}
+
+h2.topic {         
+    position: absolute;
+    top:70px;
+    left:25%;
+    width: 50%;
+    border: 1px;
+    padding: 1px;
+    margin: 0;
+    background-color: #6633ff;
+    color: #ffffff; 
+    font-size: 14px; 
+    text-align: center;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    }
+
+.imagebox {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255,153,153);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+
+img.fit {
+  width: 18%;
+  height: auto;                                                                                     
+  margin-right : auto;
+  margin-left : auto;
+  min-width : 75%;
+  max-width : 100%;
+}
+.pagebottom{
+    width: 100%;
+    padding: 2px 2px;
+    background-color: rgb(51,204,102);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bottomlink{
+    background-color: #eiff00;
+    color: #ffffff;
+    padding: 3px;
+}
+
+.homemedialinks{
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+}
+medialinks{
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+}
+
+/*****************************************************************************/
+/* Adjust for Larger screen sizes*/
+@media (min-width: 600px) {
+
+    .topbar{ 
+        width: 25%;
+        background-color: rgb(51,51,255);
+    }
+    h2.subject {
+        width: 30%;
+        background-color: rgb(0,204,0);
+        left:5%;
+    }
+    h2.topic {width: 30%;
+        background-color: rgb(0,255,0); 
+        left:5%;
+    }
+    .imagebox { 
+        width: 75%;
+    } 
+    img.fit {
+        float:left;
+        min-width : 30%;
+        max-width : 50%;
+    } 
+    
+    .pagebottom{
+        bottom:0;
+    }
+
+}
+      
+}
+

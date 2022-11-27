@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css\indexstyles.css"/>
+
+<script>
+    /* Navigation Script */
+    /* Concept based on https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp */
+    function openNav() {
+        document.getElementById("myNav").style.width = "60%";
+        }
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        }
+    /* End Navigation Script */
+</script>
+
+<style>
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #379683;
+}
+</style>
+
+</head>
+<body>
+    <!--- Navigation Menu -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="subject01_topic01.html">Visual Design</a>
+        <a href="subject02_topic01.html">UI/UX Design</a>
+        <a href="subject03_topic01.html">3D Modelling & Animation</a>
+        <a href="subject04_topic01.html">VR, AR & Game Development</a>
+        <a href="subject05_topic01.html">Web Development</a>
+        <a href="subject06_topic01.html">Video Production</a>
+        <a href="subject07_topic01.html">Photography</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <!--- End of Navigation Menu -->
+
+    <div class="topbar" id="top" onclick="location.href='index.html';">
+        <!-- Website Name--> 
+        <h2>Mark Shiels Portfolio</h2>
+    </div>
+
+    <!-- main presentation section -->
+    <div>
+        <!-- Subject Title-->
+        <h2 class="subject">3D Modelling & Animation</h2>
+        
+        <!-- Topic Title-->
+        <h2 class="topic">Robot Arm</h2>
+        
+        <p>&nbsp;</p>
+        
+        <div class="imagebox">
+            <a href="#video_frame">           
+                <!-- Main Image-->
+                <img class="fit" src="img/3DMA3.png">
+            </a>
+            <!-- Main Text-->
+            <p>I created an animation of a robot arm pouring tea from a teapot and milk from a milk carton into a cup. I designed the robot arm, the table, teapot, milk carton and  cup as well as the floor and background. I animated the robot arm to grab and lift the teapot, rotate and pour tea into the cup, then put the teapot back down. I did the same for the milk carton. I used various cameras at different angles to capture the rendered outputs, which I then used to make the video.</p>
+            <!-- Icons -->
+            <img class="icon" src="img/icons/3dmax_50_50.png">
+            <img class="icon" src="img/icons/Pr_50_50.png">
+            <p>&nbsp;</p>
+
+            <!-- Video Frame -->
+            <div id="video_frame"> 
+                <!-- Youtube embed script-->
+                <iframe width="300px" height="250px" src="https://www.youtube.com/embed/UiKHHPeb8Mw" title="Robot Arm Animation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    <!-- end of main presentation section-->
+    
+      <!-- Links in this subject-->
+      <div class="pagebottom">
+          <p>More Topics in this Subject, or back to top <a href="#top">&#8648;</a> 
+          </p>
+          <a class="bottomlink" href="subject03_topic01.html" target="_self">Wall</a>&nbsp;&nbsp;
+          <a class="bottomlink" href="subject03_topic02.html" target="_self">Pool Table</a>&nbsp;&nbsp;
+          <a class="bottomlink" href="subject03_topic03.html" target="_self">Robot Arm</a>&nbsp;&nbsp;
+          <a class="bottomlink" href="subject03_topic04.html" target="_self">Sports Car</a>&nbsp;&nbsp;
+          <a class="bottomlink" href="subject03_topic05.html" target="_self">Non-Photorealistic Rendering</a>&nbsp;&nbsp;
+          <a class="bottomlink" href="subject03_topic06.html" target="_self">Stereoscopic Animation</a>&nbsp;&nbsp;
+          
+      </div>
+      <p>&nbsp;</p>  
+    
+    </div>
+
+    <div class="medialinks">
+      <a href="https://www.youtube.com/@UniversityofLimerick" target="_blank" title="YouTube">
+          <img src="img/socialmedia/yutb_50_50.png" title="YouTube"></a>
+      <a href="https://www.facebook.com/universityoflimerick/" target="_blank" title="Facebook">
+          <img src="img/socialmedia/fbk_50_50.png" title="Facebook"></a>
+      <a href="https://mobile.twitter.com/ul/" target="_blank" title="Twitter">
+          <img src="img/socialmedia/twt_50_50.png" title="Twitter"></a>
+      <a href="https://www.instagram.com/universityoflimerick/" target="_blank" title="Instagram">
+          <img src="img/socialmedia/inst_50_50.png" title="Instagram"></a>
+    </div>
+    
+</body>
+
